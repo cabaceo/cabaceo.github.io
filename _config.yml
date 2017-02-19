@@ -21,7 +21,7 @@ subtitle: "A data science consulting company"
 # root of your server.
 # baseurl: "/" # the subpath of your site
 url: "http://gmlang.github.io" # the base hostname & protocol for your site
-baseurl: "/cabaceo-cn"
+baseurl: "/cabaceo"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
