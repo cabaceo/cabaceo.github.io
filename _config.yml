@@ -20,7 +20,7 @@ subtitle: "A data science consulting company"
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://gmlang.github.io" # the base hostname & protocol for your site
+url: "https://cabaceo.github.io" # the base hostname & protocol for your site
 baseurl: "/cabaceo"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
