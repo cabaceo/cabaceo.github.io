@@ -1,4 +1,38 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+title: "Data Science Consulting"
+excerpt: "Power your business with machine learning &#38; data technologies"
+header:
+  overlay_image: /assets/images/bg.jpg
+  overlay_filter: rgba(139, 134, 163, 0.7)
+  cta_label: "Learn More"
+  cta_url: /consulting/
+
+intro:
+  - excerpt: 'Analytic Solutions We Provide'
+
+feature_row:
+  - image_path: /assets/images/shiny.jpg
+    alt: "shiny"
+    title: "Shiny Apps"
+    excerpt: "We build analytic web apps and dashboards using Shiny."
+    url: /shiny/
+    btn_label: "See Demos"
+  - image_path: /assets/images/prediction.jpg
+    alt: "prediction"
+    title: "Predictive Models"
+    excerpt: "We turn data into predictions using ML algorithms."
+    url: /prediction/
+    btn_label: "Learn More"
+  - image_path: /assets/images/data-analysis.jpg
+    alt: "data analysis"
+    title: "Data Analysis"
+    excerpt: "We turn data into insights using statistics."
+    url: data-analysis
+    btn_label: "Learn More"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
