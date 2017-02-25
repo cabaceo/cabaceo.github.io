@@ -19,9 +19,9 @@
 <loc>http://localhost:4000/prediction/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/pricing/</loc>
+<loc>http://localhost:4000/shiny/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/shiny/</loc>
+<loc>http://localhost:4000/scratch/</loc>
 </url>
 </urlset>

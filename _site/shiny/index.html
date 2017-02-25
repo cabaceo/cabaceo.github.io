@@ -19,7 +19,7 @@
 
 
 
-<title>            Shiny Apps Gallery      Cabaceo LLC      </title>
+<title>            Shiny App Gallery      Cabaceo LLC      </title>
 
 
 
@@ -33,7 +33,7 @@
 
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Cabaceo LLC">
-<meta property="og:title" content="Shiny Apps Gallery">
+<meta property="og:title" content="Shiny App Gallery">
 
 
   <link rel="canonical" href="http://localhost:4000/shiny/">
@@ -50,6 +50,8 @@
   
 
 
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/bg.jpg">
 
 
 
@@ -117,7 +119,7 @@
 <!-- end custom head snippets -->
   </head>
 
-  <body class="layout--archive">
+  <body class="layout--splash">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -133,9 +135,6 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/consulting/">Consulting</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/pricing/">Pricing</a></li>
-          
-            
             <li class="masthead__menu-item"><a href="http://localhost:4000/about/">About Us</a></li>
           
         </ul>
@@ -147,28 +146,56 @@
 </div>
 
     
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(139, 134, 163, 0.7), rgba(139, 134, 163, 0.7)), url('http://localhost:4000/assets/images/bg.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 class="page__title" itemprop="headline">
+        
+          Shiny App Gallery
+
+        
+      </h1>
+      
+      
+      
+    </div>
+  
+  
+</div>
 
 
 
 <div id="main" role="main">
-  
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Shiny App Gallery">
+    
+    
+    
 
-  <div class="archive">
-    
-      <h1 class="page__title">Shiny Apps Gallery</h1>
-    
-    
+    <section class="page__content" itemprop="text">
+      <p>We built 11 shiny apps for clients in marketing, real estate, finance and the food retailing industry in 2016. Some are dashboards that visualize key metrics. Others are full scale analytic apps powered by statistical methods and machine learning algorithms. Here’s what a client said about our skills.</p>
+
+<blockquote>
+  <p>Guangming is a highly talented R Developer. He built Shiny app for us and finished ahead of schedule. His code is organized and clean. He nailed the requirements with minimal explanation from us. Five stars all around!</p>
+</blockquote>
+
+<p>We’ll continue to deliver well-crafted shiny apps in 2017. Below is a collection of demo apps we built for fun or as tools for data analysis.</p>
+
 <figure class="third ">
   
     
       <a href="https://cabaceo.shinyapps.io/mdjp/" title="Marriages and Divorces of Japanese Nationals">
         <img src="http://localhost:4000/assets/images/shiny/mdjp.jpg" alt="Marriages and Divorces of Japanese Nationals" />
-      </a>
-    
-  
-    
-      <a href="http://app.cabaceo.com/app/imdb/www" title="IMDB Movies Data Analysis">
-        <img src="http://localhost:4000/assets/images/shiny/imdb.jpg" alt="IMDB movies data analysis and visualization" />
       </a>
     
   
@@ -179,14 +206,20 @@
     
   
     
-      <a href="http://app.cabaceo.com/app/phph/www" title="Use Survival Models to Study the Effect of Radiotherapy on Time to Breast Cancer">
-        <img src="http://localhost:4000/assets/images/shiny/phph.jpg" alt="Survival Models for Time to Breast Cancer" />
+      <a href="https://cabaceo.shinyapps.io/tsplotr-demo/" title="Visualize the trend of an example real estate market dataset">
+        <img src="http://localhost:4000/assets/images/shiny/tsplotr.jpg" alt="tsplotr demo" />
       </a>
     
   
     
-      <a href="https://cabaceo.shinyapps.io/tsplotr-demo/" title="Visualize the trend of an example real estate market dataset">
-        <img src="http://localhost:4000/assets/images/shiny/tsplotr.jpg" alt="tsplotr demo" />
+      <a href="http://app.cabaceo.com/app/imdb/www" title="IMDB Movies Data Analysis">
+        <img src="http://localhost:4000/assets/images/shiny/imdb.jpg" alt="IMDB movies data analysis and visualization" />
+      </a>
+    
+  
+    
+      <a href="http://app.cabaceo.com/app/phph/www" title="Use Survival Models to Study the Effect of Radiotherapy on Time to Breast Cancer">
+        <img src="http://localhost:4000/assets/images/shiny/phph.jpg" alt="Survival Models for Time to Breast Cancer" />
       </a>
     
   
@@ -197,13 +230,38 @@
     
   
   
-    <figcaption>Made by Cabaceo LLC
+    <figcaption>
 </figcaption>
   
 </figure>
 
+<div class="feature__wrapper">
 
-  </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+
+        <div class="archive__item-body">
+          
+
+          
+
+          
+            <p><a href="http://localhost:4000/consulting/" class="btn ">Contact Us</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+    </section>
+  </article>
 </div>
 
     <div class="page__footer">
@@ -218,8 +276,6 @@
     
     
     
-    
-      <li><a href="http://github.com/cabaceo"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     
     
     <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>

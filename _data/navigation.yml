@@ -2,8 +2,8 @@
 main:
   - title: "Consulting"
     url: /consulting/
-  - title: "Pricing"
-    url: /pricing/
+  #- title: "Pricing"
+  #  url: /pricing/
   - title: "About Us"
     url: /about/
   # - title: "Blogs"

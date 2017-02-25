@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Guangming Lang"
   avatar           : "/assets/images/bio-gmlang.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I love R and MXNet."
+  bio              : "Chief Data Scientist"
   location         : "Ann Arbor, Michigan"
   email            : "gmlang@cabaceo.com"
   uri              :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "cabaceo" 
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
