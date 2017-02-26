@@ -18,6 +18,6 @@ I currently have one backend developer and two PhD level data scientists working
 
 Thank you for reading and have a wonderful day!
 
-Guangming
+-Guangming
 
-Feel free to email me at gmlang@cabaceo.com 
+PS: Feel free to email me at **gmlang@cabaceo.com** 
