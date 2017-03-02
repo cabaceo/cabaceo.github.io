@@ -16,7 +16,7 @@ gallery:
     image_path: /assets/images/shiny/quantdp.jpg
     alt: "Backtest Portfolio Dynamic rebalancing strategies, a demo"
     title: "Backtest portfolio rebalancing strategies using vanguard index funds"
-  - url: https://cabaceo.shinyapps.io/tsplotr-demo/
+  - url: https://cabaceo.shinyapps.io/tsplotr/
     image_path: /assets/images/shiny/tsplotr.jpg
     alt: "tsplotr demo"
     title: "Visualize the trend of an example real estate market dataset"    
