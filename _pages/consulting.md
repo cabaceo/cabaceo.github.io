@@ -21,7 +21,7 @@ We provide analytic solutions and consulting services in the following 3 areas:
 ## Our Prices
 We are flexible with pricing. It all depends on the project. For example,
 
-* Our price for a one-chart dashboard is only $49. Here're [two](https://cabaceo.com/shiller-pe/) [examples]().
+* Our price for a one-chart dashboard is only $49. Here're [two](https://cabaceo.com/shiller-pe/) [examples](https://cabaceo.com/berkshire-vs-sp500/).
 * Our price for a typical medium sized shiny app powered by a machine learning algorithm is $3999. 
 * Our largest predictive modeling project is $100K.
 * Our medium sized projects range between $8K and 20K.
