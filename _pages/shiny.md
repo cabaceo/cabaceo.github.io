@@ -40,6 +40,10 @@ gallery:
     image_path: /assets/images/shiny/sscrc.jpg
     alt: "SSCRC"
     title: "Sample Size and Power Calculation in Clinical Trials"        
+  - url: https://gmlang.shinyapps.io/airbnb-japan/
+    image_path: /assets/images/shiny/airbnb-japan.jpg
+    alt: "airbnb-japan"
+    title: "Quick Initial Search and Filter of Airbnbs in Japan"        
     
 feature_row:
   - url: /consulting/
