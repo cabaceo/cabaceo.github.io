@@ -8,7 +8,7 @@ header:
   cta_label: ""
   cta_url: 
 gallery:
-  - url: https://cabaceo.shinyapps.io/mdjp/
+  - url: https://darunma.shinyapps.io/mdjp/
     image_path: /assets/images/shiny/mdjp.jpg
     alt: "Marriages and Divorces of Japanese Nationals"
     title: "Marriages and Divorces of Japanese Nationals"
