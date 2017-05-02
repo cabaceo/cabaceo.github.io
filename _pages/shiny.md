@@ -3,7 +3,7 @@ layout: splash
 permalink: /shiny/
 title: "Shiny App Gallery"
 header:
-  overlay_image: /assets/images/bg.png
+  overlay_image: /assets/images/bg.jpg
   overlay_filter: rgba(139, 134, 163, 0.7)
   cta_label: ""
   cta_url: 
@@ -19,12 +19,12 @@ gallery:
     title: "Shiller PE"
 
   - url: https://cabaceo.shinyapps.io/quantdp/
-    image_path: /assets/images/shiny/quantdp.png
+    image_path: /assets/images/shiny/quantdp-clipped.png
     alt: "Backtest Portfolio Dynamic rebalancing strategies, a demo"
     title: "Backtest portfolio rebalancing strategies using vanguard index funds"
 
   - url: http://app.cabaceo.com/app/imdb/www
-    image_path: /assets/images/shiny/imdb.png
+    image_path: /assets/images/shiny/imdb-clipped.png
     alt: "IMDB movies data analysis and visualization"
     title: "IMDB Movies Data Analysis"
 
