@@ -41,7 +41,12 @@ gallery:
   - url: https://cabaceo.shinyapps.io/gurunavi-en/
     image_path: /assets/images/shiny/gurunavi-en-clipped.png
     alt: "gurunavi-en"
-    title: "Search for Restaurants in Japan"        
+    title: "Search for Gurunavi Restaurants in Japan"        
+
+  - url: https://cabaceo.shinyapps.io/tabelog-en/
+    image_path: /assets/images/shiny/tabelog-en-clipped.png
+    alt: "tabelog-en"
+    title: "Search for Tabelog Restaurants in Japan"        
 
   - url: https://darunma.shinyapps.io/mdjp/
     image_path: /assets/images/shiny/mdjp-clipped.png

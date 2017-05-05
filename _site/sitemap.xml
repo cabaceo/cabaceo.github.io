@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://cabaceo.com/about/</loc>
+<loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>https://cabaceo.com/consulting/</loc>
+<loc>http://localhost:4000/consulting/</loc>
 </url>
 <url>
-<loc>https://cabaceo.com/data-analysis/</loc>
+<loc>http://localhost:4000/data-analysis/</loc>
 </url>
 <url>
-<loc>https://cabaceo.com/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://cabaceo.com/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://cabaceo.com/prediction/</loc>
+<loc>http://localhost:4000/prediction/</loc>
 </url>
 <url>
-<loc>https://cabaceo.com/shiny/</loc>
+<loc>http://localhost:4000/shiny/</loc>
 </url>
 </urlset>
