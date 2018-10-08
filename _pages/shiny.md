@@ -23,10 +23,10 @@ gallery:
     alt: "Backtest Portfolio Dynamic rebalancing strategies, a demo"
     title: "Backtest portfolio rebalancing strategies using vanguard index funds"
 
-  - url: http://app.cabaceo.com/app/imdb/www
+  - url: https://cabaceo.com/imdb/
     image_path: /assets/images/shiny/imdb-clipped.png
-    alt: "IMDB movies data analysis and visualization"
-    title: "IMDB Movies Data Analysis"
+    alt: "IMDB movies data visualization"
+    title: "IMDB Movies Data Visualization"
 
   - url: https://cabaceo.shinyapps.io/airbnb-japan/
     image_path: /assets/images/shiny/airbnb-japan-clipped.png
