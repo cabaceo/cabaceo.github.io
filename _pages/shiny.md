@@ -53,10 +53,10 @@ gallery:
     alt: "Marriages and Divorces of Japanese Nationals"
     title: "Marriages and Divorces of Japanese Nationals"
     
-  - url: http://app.cabaceo.com/app/phph/www
+  - url: https://cabaceo.com/phph/
     image_path: /assets/images/shiny/phph-clipped.png
-    alt: "Survival Models for Time to Breast Cancer"
-    title: "Use Survival Models to Study the Effect of Radiotherapy on Time to Breast Cancer"
+    alt: "Survival Analysis Demo"
+    title: "Use Survival Models to Study the Effect of Radiotherapy on Time to Breast Cancer Onset"
     
   - url: https://cabaceo.shinyapps.io/tsplotr/
     image_path: /assets/images/shiny/tsplotr-clipped.png
