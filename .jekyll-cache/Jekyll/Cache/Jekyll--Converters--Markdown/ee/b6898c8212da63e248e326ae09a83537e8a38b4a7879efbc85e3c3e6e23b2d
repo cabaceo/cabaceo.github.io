@@ -1,0 +1,68 @@
+I"¡
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--center">
+      <div class="archive__item">
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">We build custom dashboards with R Shiny.</h2>
+          
+
+          
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<figure class="third ">
+  
+    
+      <a href="https://cabaceo.shinyapps.io/CLTV/" title="Cohort Analysis and Churn Rates">
+          <img src="/images/dashboards/CLTV-clipped.png" alt="Cohort Analysis and Churn Rates" />
+      </a>
+    
+  
+    
+      <a href="https://cabaceo.com/berkshire-vs-sp500/" title="Berkshire vs. S&amp;P 500">
+          <img src="/images/dashboards/berkshire-vs-sp500-clipped.png" alt="Berkshire vs. S&amp;P 500" />
+      </a>
+    
+  
+    
+      <a href="https://cabaceo.com/shiller-pe/" title="Shiller PE">
+          <img src="/images/dashboards/shiller-pe-clipped.png" alt="Shiller PE" />
+      </a>
+    
+  
+    
+      <a href="https://cabaceo.com/imdb/" title="IMDB Movies Data Visualization">
+          <img src="/images/dashboards/imdb-clipped.png" alt="IMDB movies data visualization" />
+      </a>
+    
+  
+    
+      <a href="https://cabaceo.com/phph/" title="Use Survival Models to Study the Effect of Radiotherapy on Time to Breast Cancer Onset">
+          <img src="/images/dashboards/phph-clipped.png" alt="Survival Analysis Demo" />
+      </a>
+    
+  
+    
+      <a href="https://gmlang.shinyapps.io/SSCRC/" title="Sample Size and Power Calculation in Clinical Trials">
+          <img src="/images/dashboards/SSCRC-clipped.png" alt="SSCRC" />
+      </a>
+    
+  
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+:ET

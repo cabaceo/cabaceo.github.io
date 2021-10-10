@@ -1,0 +1,53 @@
+---
+layout: splash
+permalink: /solutions/
+title: "Solutions"
+header:
+  overlay_image: /images/landing/bg.jpg
+  overlay_filter: rgba(139, 134, 163, 0.7)
+  cta_label: ""
+  cta_url:           
+intro: 
+  - title: 'We provide data science and machine learning solutions to the following industries.'
+feature_row:
+  - image_path: /images/landing/fintech.jpeg
+    title: "Fintech"
+    excerpt: ""
+    url: /fintech/
+    btn_label: "Browse Projects"
+    btn_class: "btn--primary"
+  - image_path: /images/landing/trading.jpeg
+    title: "Trading"
+    excerpt: ""
+    url: /trading/
+    btn_label: "Browse Projects"
+    btn_class: "btn--primary"    
+  - image_path: /images/landing/investment-analysis.jpeg
+    title: "Investment Analysis"
+    excerpt: ""
+    url: /investment_analysis/
+    btn_label: "Browse Projects"
+    btn_class: "btn--primary"
+  - image_path: /images/landing/medicine-biotech.jpeg
+    title: "Medicine & Biotech"
+    excerpt: ''
+    url: /medicine_biotech/
+    btn_label: "Browse Projects"
+    btn_class: "btn--primary"
+  - image_path: /images/landing/marketing-advertising.jpeg
+    title: "Marketing & Advertising"
+    excerpt: ''
+    url: /marketing_advertising/
+    btn_label: "Browse Projects"
+    btn_class: "btn--primary"
+  - image_path: /images/landing/hr.jpeg
+    title: "HR & Operations"
+    excerpt: ''
+    url: /hr_operations/
+    btn_label: "Browse Projects"
+    btn_class: "btn--primary"
+---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}

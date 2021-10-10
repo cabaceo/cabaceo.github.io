@@ -1,0 +1,153 @@
+I"Ö
+<figure class=" ">
+  
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/dashboards/CLTV-clipped.png" alt="Cohort Analysis and Churn Rates" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Cohort Analysis and Churn Rates</h2>
+          
+
+          
+
+          
+            <p><a href="https://cabaceo.shinyapps.io/CLTV/" class="btn ">Learn more</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/dashboards/berkshire-vs-sp500-clipped.png" alt="Berkshire vs. S&amp;P 500" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Berkshire vs. S&amp;P 500</h2>
+          
+
+          
+
+          
+            <p><a href="https://cabaceo.com/berkshire-vs-sp500/" class="btn ">Learn more</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/dashboards/shiller-pe-clipped.png" alt="Shiller PE" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Shiller PE</h2>
+          
+
+          
+
+          
+            <p><a href="https://cabaceo.com/shiller-pe/" class="btn ">Learn more</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/dashboards/imdb-clipped.png" alt="IMDB movies data visualization" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">IMDB Movies Data Visualization</h2>
+          
+
+          
+
+          
+            <p><a href="https://cabaceo.com/imdb/" class="btn ">Learn more</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/dashboards/phph-clipped.png" alt="Survival Analysis Demo" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Use Survival Models to Study the Effect of Radiotherapy on Time to Breast Cancer Onset</h2>
+          
+
+          
+
+          
+            <p><a href="https://cabaceo.com/phph/" class="btn ">Learn more</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/dashboards/SSCRC-clipped.png" alt="SSCRC" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Sample Size and Power Calculation in Clinical Trials</h2>
+          
+
+          
+
+          
+            <p><a href="https://gmlang.shinyapps.io/SSCRC/" class="btn ">Learn more</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+:ET

@@ -1,4 +1,4 @@
-I"ö
+I"À
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -10,6 +10,10 @@
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/solutions/">Solutions</a>
+            </li><li class="masthead__menu-item">
+              <a href="/dashboards/">Dashboards</a>
+            </li><li class="masthead__menu-item">
               <a href="/about/">About Us</a>
             </li><li class="masthead__menu-item">
               <a href="/consulting/#contact-us">Contact Us</a>
