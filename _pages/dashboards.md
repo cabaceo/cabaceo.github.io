@@ -10,10 +10,10 @@ header:
 intro: 
   - title: 'We build custom dashboards with R Shiny.'
 gallery:
-  - url: https://cabaceo.shinyapps.io/CLTV/
-    image_path: images/dashboards/CLTV-clipped.png
-    alt: "Cohort Analysis and Churn Rates"
-    title: "Cohort Analysis and Churn Rates"
+  - url: https://cabaceo.com/imdb/
+    image_path: images/dashboards/imdb-clipped.png
+    alt: "IMDB movies data visualization"
+    title: "IMDB Movies Data Visualization"
 
   - url: https://cabaceo.com/berkshire-vs-sp500/
     image_path: images/dashboards/berkshire-vs-sp500-clipped.png
@@ -29,11 +29,6 @@ gallery:
   #  image_path: images/dashboards/quantdp-clipped.png
   #  alt: "Backtest Portfolio Dynamic rebalancing strategies, a demo"
   #  title: "Backtest portfolio rebalancing strategies using vanguard index funds"
-
-  - url: https://cabaceo.com/imdb/
-    image_path: images/dashboards/imdb-clipped.png
-    alt: "IMDB movies data visualization"
-    title: "IMDB Movies Data Visualization"
     
   - url: https://cabaceo.com/phph/
     image_path: images/dashboards/phph-clipped.png
@@ -44,6 +39,11 @@ gallery:
   #  image_path: images/dashboards/linreg-clipped.png
   #  alt: "linreg"
   #  title: "A tool for training linear regression model"  
+
+  - url: https://cabaceo.shinyapps.io/CLTV/
+    image_path: images/dashboards/CLTV-clipped.png
+    alt: "Cohort Analysis and Churn Rates"
+    title: "Cohort Analysis and Churn Rates"
           
   - url: https://gmlang.shinyapps.io/SSCRC/
     image_path: images/dashboards/SSCRC-clipped.png

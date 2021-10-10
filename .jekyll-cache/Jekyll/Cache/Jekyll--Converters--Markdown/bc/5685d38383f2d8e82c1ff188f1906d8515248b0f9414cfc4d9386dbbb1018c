@@ -24,8 +24,8 @@
 <figure class="third ">
   
     
-      <a href="https://cabaceo.shinyapps.io/CLTV/" title="Cohort Analysis and Churn Rates">
-          <img src="/images/dashboards/CLTV-clipped.png" alt="Cohort Analysis and Churn Rates" />
+      <a href="https://cabaceo.com/imdb/" title="IMDB Movies Data Visualization">
+          <img src="/images/dashboards/imdb-clipped.png" alt="IMDB movies data visualization" />
       </a>
     
   
@@ -42,14 +42,14 @@
     
   
     
-      <a href="https://cabaceo.com/imdb/" title="IMDB Movies Data Visualization">
-          <img src="/images/dashboards/imdb-clipped.png" alt="IMDB movies data visualization" />
+      <a href="https://cabaceo.com/phph/" title="Use Survival Models to Study the Effect of Radiotherapy on Time to Breast Cancer Onset">
+          <img src="/images/dashboards/phph-clipped.png" alt="Survival Analysis Demo" />
       </a>
     
   
     
-      <a href="https://cabaceo.com/phph/" title="Use Survival Models to Study the Effect of Radiotherapy on Time to Breast Cancer Onset">
-          <img src="/images/dashboards/phph-clipped.png" alt="Survival Analysis Demo" />
+      <a href="https://cabaceo.shinyapps.io/CLTV/" title="Cohort Analysis and Churn Rates">
+          <img src="/images/dashboards/CLTV-clipped.png" alt="Cohort Analysis and Churn Rates" />
       </a>
     
   
