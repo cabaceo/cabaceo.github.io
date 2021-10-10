@@ -1,0 +1,310 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Forecast Portfolio Growth with Markov Chain Monte Carlo Simulation | Cabaceo LLC</title>
+<meta name="description" content="The client, a financial planning company, contracted us to build a tool for projecting the spending down of a portfolio during post-divorce. For example, a 40 year old woman gets divorced and gets $1 million, which she invests in a portfolio of stocks and bonds. She needs a monthly living expense of $5000 for the first ten years, and $4000 for the rest of her life. She will get monthly child support of $600 for 10 years, and monthly alimony of $400 for 4 years. She will start receiving $1500 per month in Social Security in 27 years. How long will her portfolio last? How much income can she withdraw without spending the portfolio down at all?">
+
+
+  <meta name="author" content="Guangming Lang">
+  
+  <meta property="article:author" content="Guangming Lang">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Cabaceo LLC">
+<meta property="og:title" content="Forecast Portfolio Growth with Markov Chain Monte Carlo Simulation">
+<meta property="og:url" content="http://localhost:4000/investment_analysis/forecast_portfolio_growth_with_mcmc/">
+
+
+  <meta property="og:description" content="The client, a financial planning company, contracted us to build a tool for projecting the spending down of a portfolio during post-divorce. For example, a 40 year old woman gets divorced and gets $1 million, which she invests in a portfolio of stocks and bonds. She needs a monthly living expense of $5000 for the first ten years, and $4000 for the rest of her life. She will get monthly child support of $600 for 10 years, and monthly alimony of $400 for 4 years. She will start receiving $1500 per month in Social Security in 27 years. How long will her portfolio last? How much income can she withdraw without spending the portfolio down at all?">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-10-10T13:15:08+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/investment_analysis/forecast_portfolio_growth_with_mcmc/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Cabaceo LLC",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+  <meta name="msvalidate.01" content="F608C5B05384F7B0200AC62F5BB60411">
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Cabaceo LLC
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About Us</a>
+            </li><li class="masthead__menu-item">
+              <a href="/consulting/#contact-us">Contact Us</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Forecast Portfolio Growth with Markov Chain Monte Carlo Simulation">
+    <meta itemprop="description" content="The client, a financial planning company, contracted us to build a tool for projecting the spending down of a portfolio during post-divorce. For example, a 40 year old woman gets divorced and gets $1 million, which she invests in a portfolio of stocks and bonds. She needs a monthly living expense of $5000 for the first ten years, and $4000 for the rest of her life. She will get monthly child support of $600 for 10 years, and monthly alimony of $400 for 4 years. She will start receiving $1500 per month in Social Security in 27 years. How long will her portfolio last? How much income can she withdraw without spending the portfolio down at all?">
+    <meta itemprop="datePublished" content="2021-10-10T13:15:08+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Forecast Portfolio Growth with Markov Chain Monte Carlo Simulation
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>The client, a financial planning company, contracted us to build a tool for projecting the spending down of a portfolio during post-divorce. For example, a 40 year old woman gets divorced and gets $1 million, which she invests in a portfolio of stocks and bonds. She needs a monthly living expense of $5000 for the first ten years, and $4000 for the rest of her life. She will get monthly child support of $600 for 10 years, and monthly alimony of $400 for 4 years. She will start receiving $1500 per month in Social Security in 27 years. How long will her portfolio last? How much income can she withdraw without spending the portfolio down at all?</p>
+
+<p>The key here is to forecast the returns of the portfolio many years into the future.  A naive method for that is to use Monte Carlo simulation while assuming the annual returns are normally distributed. This is the standard used by courts, although the resulting forecasts are biased and ignore fat tails. I programmed this naive method and a better alternative, namely, Markov Chain Monte Carlo (MCMC) simulation, in R and JAGS. In total, my tool has four methods for forecasting monthly returns:</p>
+
+<ul>
+  <li>Naive Monte Carlo, assuming monthly returns follow a normal distribution.</li>
+  <li>Naive Monte Carlo, assuming monthly returns follow a t distribution.</li>
+  <li>MCMC, assuming monthly returns follow a normal distribution and a flat prior before the first month.</li>
+  <li>MCMC, assuming monthly returns follow a t distribution and a flat prior before the first month (best).</li>
+</ul>
+
+<p>My tool has the following features:</p>
+
+<ul>
+  <li>Allow user to input initial portfolio value and specify when to retire.</li>
+  <li>Allow user to set portfolio target allocations (e.g., 80/20 for S&amp;P 500/Total Bond market).</li>
+  <li>Automatically rebalance to target allocation every 12-month.</li>
+  <li>Allow user to change allocation every 120 month (e.g., reduce stocks holdings by X% every 10 years).</li>
+  <li>Allow user to manipulate time periods in which withdrawals are taken (e.g., withdraw $3000 per month for the first five years, and $2000 per month for the next ten years).</li>
+  <li>Allow user to change the income at different periods in their lives (e.g., the more the income, the less they need to withdraw).</li>
+  <li>Account for inflations.</li>
+</ul>
+
+<p>The following screenshots show what the output look like:</p>
+
+<p><img src="/images/projects/forecast_portfolio_growth_with_mcmc/quandl-spy-monthly-bayesian.png" alt="" /></p>
+
+<p><img src="/images/projects/forecast_portfolio_growth_with_mcmc/quandl-bnd-monthly-bayesian.png" alt="" /></p>
+
+<p><img src="/images/projects/forecast_portfolio_growth_with_mcmc/p0.png" alt="" /></p>
+
+<p><img src="/images/projects/forecast_portfolio_growth_with_mcmc/p1.png" alt="" /></p>
+
+<p><img src="/images/projects/forecast_portfolio_growth_with_mcmc/p2.png" alt="" /></p>
+
+<p><img src="/images/projects/forecast_portfolio_growth_with_mcmc/p3.png" alt="" /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-10-10T13:15:08+09:00">October 10, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Forecast+Portfolio+Growth+with+Markov+Chain+Monte+Carlo+Simulation%20http%3A%2F%2Flocalhost%3A4000%2Finvestment_analysis%2Fforecast_portfolio_growth_with_mcmc%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Finvestment_analysis%2Fforecast_portfolio_growth_with_mcmc%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Finvestment_analysis%2Fforecast_portfolio_growth_with_mcmc%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/investment_analysis/real_estate_investment_portfolio_analysis/" class="pagination--pager" title="Real Estate Investment Portfolio Analysis
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="mailto:gmlang@cabaceo.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Cabaceo LLC. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

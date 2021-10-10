@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "About Us"
+    url: /about/
+  - title: "Contact Us"
+    url: /consulting/#contact-us
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

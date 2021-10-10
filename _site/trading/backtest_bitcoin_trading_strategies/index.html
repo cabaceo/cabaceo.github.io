@@ -1,0 +1,280 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Backtest Bitcoin Trading Strategies | Cabaceo LLC</title>
+<meta name="description" content="The client, a crypto trader who was building a trading bot, contracted us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performances using historical data from cryptoquant.com and bitmex, while accounting for fees on Kraken since that was the client’s choice of exchange.">
+
+
+  <meta name="author" content="Guangming Lang">
+  
+  <meta property="article:author" content="Guangming Lang">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Cabaceo LLC">
+<meta property="og:title" content="Backtest Bitcoin Trading Strategies">
+<meta property="og:url" content="http://localhost:4000/trading/backtest_bitcoin_trading_strategies/">
+
+
+  <meta property="og:description" content="The client, a crypto trader who was building a trading bot, contracted us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performances using historical data from cryptoquant.com and bitmex, while accounting for fees on Kraken since that was the client’s choice of exchange.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-10-10T13:15:08+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/trading/backtest_bitcoin_trading_strategies/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Cabaceo LLC",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+  <meta name="msvalidate.01" content="F608C5B05384F7B0200AC62F5BB60411">
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Cabaceo LLC
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About Us</a>
+            </li><li class="masthead__menu-item">
+              <a href="/consulting/#contact-us">Contact Us</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Backtest Bitcoin Trading Strategies">
+    <meta itemprop="description" content="The client, a crypto trader who was building a trading bot, contracted us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performances using historical data from cryptoquant.com and bitmex, while accounting for fees on Kraken since that was the client’s choice of exchange.">
+    <meta itemprop="datePublished" content="2021-10-10T13:15:08+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Backtest Bitcoin Trading Strategies
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>The client, a crypto trader who was building a trading bot, contracted us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performances using historical data from cryptoquant.com and bitmex, while accounting for fees on Kraken since that was the client’s choice of exchange.</p>
+
+<p>Each strategy output three signals (“Buy”, “Sell”, or “Hold”) at each trading time, for example, at the end of each 24 hours if trading frequency was daily, and every 4 hours if trading frequency was 4-hour. Our python scripts carefully calculated the profit and loss after each trade and tracked the account balance over time, while taking care of stop losses and accounting for all possible fees, including trading fees and margin account open and rollover fees. For each strategy, our scripts gave three scenarios: no leverage, 3x leverage, and 5x leverage. Our scripts also tested what would happen if we short-sold BTC every time when there was a ‘Sell’ signal. Finally, We wrote R scripts to plot account balance over time and analyzed 5-day, 10-day, 15-day, 30-day, 90-day, 180-day, and 365-day returns and risks.</p>
+
+<p>After the project, we realized that we had actually written a general backtesting tool. Say you have a BTC trading strategy and you want to keep it secret, but you also want to know how well it would’ve performed historically. You can run your strategy over historical data and generate a csv file of two columns: timestamp and trading signal (‘Buy’, ‘Sell’, or ‘Hold’). You can then feed the csv file into our tool, with an exchange selected (Kraken, Binance, Bitmex, and etc.), and you will get a performance report like <a href="https://github.com/gmlang/gallery/blob/d4e246f345bea068bc98807e72aadcc2944d69ef/backtest-btc-30-day-return-risk.pdf">this</a>.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-10-10T13:15:08+09:00">October 10, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Backtest+Bitcoin+Trading+Strategies%20http%3A%2F%2Flocalhost%3A4000%2Ftrading%2Fbacktest_bitcoin_trading_strategies%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftrading%2Fbacktest_bitcoin_trading_strategies%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Ftrading%2Fbacktest_bitcoin_trading_strategies%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/trading/analyze_stock_market_data_with_linear_panel_models/" class="pagination--pager" title="Analyze Stock Market Data with Linear Panel Models
+">Previous</a>
+    
+    
+      <a href="/trading/develop_trading_signals_for_bitcoin_perpetuals/" class="pagination--pager" title="Develop Trading Signals for Bitcoin Perpetual Future Contracts
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="mailto:gmlang@cabaceo.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Cabaceo LLC. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
