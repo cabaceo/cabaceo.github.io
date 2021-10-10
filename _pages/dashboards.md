@@ -53,6 +53,6 @@ gallery:
             
 ---
 
+{% include feature_row id="intro" type="center" %}
 
 
-{% include gallery id="gallery" caption="" %}
