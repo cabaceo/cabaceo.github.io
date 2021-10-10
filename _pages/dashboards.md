@@ -9,6 +9,7 @@ header:
   cta_url: 
 intro: 
   - title: 'We build custom dashboards with R Shiny.'
+
 gallery:
   - url: https://cabaceo.com/imdb/
     image_path: images/dashboards/imdb-clipped.png
