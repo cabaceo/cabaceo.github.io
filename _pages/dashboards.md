@@ -50,9 +50,9 @@ gallery:
     image_path: images/dashboards/SSCRC-clipped.png
     alt: "SSCRC"
     title: "Sample Size and Power Calculation in Clinical Trials"        
-            
+         
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-
+{% include gallery id="gallery" caption="" %}
