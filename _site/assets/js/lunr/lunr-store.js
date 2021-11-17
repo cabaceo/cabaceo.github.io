@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Estimate TV Attribution with Wavelets",
-        "excerpt":"The client, Metrics Media Group, LLC, runs TV ad campaigns for its customers. They contracted us to develop a methodology of attribution to help them understand which TV station-ad-spots provide the most web traffics so that they can better allocate their ads spendings. They provided us with a dataset of...","categories": [],
+        "excerpt":"The client, Metrics Media Group, LLC, runs TV ad campaigns for its customers. They contracted us to develop a methodology of attribution to help them understand which TV station-ad-spots provide the most web traffic so that they can better allocate their ads spendings. They provided us with a dataset of...","categories": [],
         "tags": [],
         "url": "/marketing_advertising/estimate_tv_attribution_with_wavelets/",
         "teaser": null
