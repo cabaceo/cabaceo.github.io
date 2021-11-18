@@ -23,18 +23,6 @@ var store = [{
         "url": "/hr_operations/improve_and_maintain_hr_analytics_codebase/",
         "teaser": null
       },{
-        "title": "Forecast Portfolio Growth with Markov Chain Monte Carlo Simulation",
-        "excerpt":"The client, a financial planning company, contracted us to build a tool for projecting the spending down of a portfolio during post-divorce. For example, a 40 year old woman gets divorced and gets $1 million, which she invests in a portfolio of stocks and bonds. She needs a monthly living...","categories": [],
-        "tags": [],
-        "url": "/investment_analysis/forecast_portfolio_growth_with_mcmc/",
-        "teaser": null
-      },{
-        "title": "Real Estate Investment Portfolio Analysis",
-        "excerpt":"The client, a real estate investment company, contracted us to analyze the performance of their asset portfolios and compare with their projected numbers. We generated summary statistics, plotted statistical charts, and ran paired t-tests on the following metrics: total cost, months to complete, rent per unit, rent per NRSF, NOI,...","categories": [],
-        "tags": [],
-        "url": "/investment_analysis/real_estate_investment_portfolio_analysis/",
-        "teaser": null
-      },{
         "title": "Estimate TV Attribution with Wavelets",
         "excerpt":"The client, Metrics Media Group, LLC, runs TV ad campaigns for its customers. They contracted us to develop a methodology of attribution to help them understand which TV station-ad-spots provide the most web traffic so that they can better allocate their ads spendings. They provided us with a dataset of...","categories": [],
         "tags": [],
@@ -71,6 +59,18 @@ var store = [{
         "url": "/medicine_biotech/predict_sepsis_onset_with_machine_learning/",
         "teaser": null
       },{
+        "title": "Real Estate Investment Portfolio Analysis",
+        "excerpt":"The client, a real estate investment company, contracted us to analyze the performance of their asset portfolios and compare with their projected numbers. We generated descriptive statistics and charts and conducted paired t-tests for over 25 metrics that the client was tracking. Our analysis identified rules of thumb for the...","categories": [],
+        "tags": [],
+        "url": "/real_estate/real_estate_investment_portfolio_analysis/",
+        "teaser": null
+      },{
+        "title": "Score Geographic Areas by Investment Potential",
+        "excerpt":"The client, a multifamily real estate investor, contracted us to create a data-driven analytical system that scores certain geographic areas to show what areas have the highest investment potential for multifamily properties (apartment buildings). The algorithm we developed for the client uses population density/growth, income growth, job growth, housing values/growth,...","categories": [],
+        "tags": [],
+        "url": "/real_estate/score_areas_by_investment_potential/",
+        "teaser": null
+      },{
         "title": "Analyze Stock Market Data with Linear Panel Models",
         "excerpt":"The client, a stock trader and researcher, contracted us to analyze a collection of large files of stock market data using linear panel models with the R PLM package. The provided stock market data were observed on cross-sections of units and over time. This double dimensionality required linear panel models...","categories": [],
         "tags": [],
@@ -87,5 +87,11 @@ var store = [{
         "excerpt":"It was an absolute pleasure to work with Guangming. Communication was seamless and he went above and beyond original expectations to provide excellence. You will be hard pressed to find a data scientist with this level of creative problem solving and efficiency. There is no problem too large. From fairly...","categories": [],
         "tags": [],
         "url": "/trading/develop_trading_signals_for_bitcoin_perpetuals/",
+        "teaser": null
+      },{
+        "title": "Forecast Portfolio Growth with Markov Chain Monte Carlo Simulation",
+        "excerpt":"The client, a financial planning company, contracted us to build a tool for projecting the spending down of a portfolio during post-divorce. For example, a 40 year old woman gets divorced and gets $1 million, which she invests in a portfolio of stocks and bonds. She needs a monthly living...","categories": [],
+        "tags": [],
+        "url": "/trading/forecast_portfolio_growth_with_mcmc/",
         "teaser": null
       }]

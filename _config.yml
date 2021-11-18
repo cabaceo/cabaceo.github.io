@@ -281,7 +281,7 @@ collections:
   trading:
     output: true
     permalink: /:collection/:path/
-  investment_analysis:
+  real_estate:
     output: true
     permalink: /:collection/:path/
   marketing_advertising:
@@ -323,10 +323,10 @@ defaults:
       layout: single
       author_profile: false
       share: true
-  # _investment_analysis
+  # _real_estate
   - scope:
       path: ""
-      type: investment_analysis
+      type: real_estate
     values:
       layout: single
       author_profile: false

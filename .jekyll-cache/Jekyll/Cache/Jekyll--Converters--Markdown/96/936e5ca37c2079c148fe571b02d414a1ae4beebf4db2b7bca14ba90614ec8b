@@ -1,0 +1,7 @@
+I"Þ<p>The client, a multifamily real estate investor, contracted us to create a data-driven analytical system that scores certain geographic areas to show what areas have the highest investment potential for multifamily properties (apartment buildings).</p>
+
+<p>The algorithm we developed for the client uses population density/growth, income growth, job growth, housing values/growth, rental prices/growth, rent-to-income ratio, crime rate, amongst other key metrics. These metrics were obtained and calculated from multiple data providers, including RentRage, CoStar, Zillow, and CubitPlanning. The algorithm would assign a score to each geographic area with the highest scores being the most optimal.</p>
+
+<p>Time series methods</p>
+
+:ET
