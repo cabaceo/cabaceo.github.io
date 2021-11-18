@@ -1,0 +1,11 @@
+I"<p>If a stock price series is mean-reverting, we could trade on it and make a profit
+if we could accurately estimate its means and standard deviations for the near
+future. Kalman filter is an excellent algorithm for doing that. In this project,
+we implemented a 1D Kalman Filter in Python to forecast the near-future mean 
+prices of AAPL, AMZN, FB, GOOG, and TSLA stocks based on their daily close price 
+and volume data between January 1 and August 6, 2021. We discovered that only 
+TSLA showed a mean reverting pattern for this period. Our Kalman filter is smart 
+enough to wait and see if a real trend develops before reflecting it in its 
+forecasts. Read our <a href="/assets/stock-price-forecasting-with-kalman-filter.pdf">paper</a>
+to understand how Kalman filter works its magic.</p>
+:ET
