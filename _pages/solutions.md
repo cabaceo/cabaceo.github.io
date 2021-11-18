@@ -22,10 +22,10 @@ feature_row:
     url: /trading/
     btn_label: "Browse Projects"
     btn_class: "btn--primary"    
-  - image_path: /images/landing/investment-analysis.jpeg
-    title: "Investment Analysis"
+  - image_path: /images/landing/real-estate.jpeg
+    title: "Real Estate"
     excerpt: ""
-    url: /investment_analysis/
+    url: /real_estate/
     btn_label: "Browse Projects"
     btn_class: "btn--primary"
   - image_path: /images/landing/medicine-biotech.jpeg

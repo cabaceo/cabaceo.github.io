@@ -1,0 +1,15 @@
+I"b<p>This is one of our research/passion projects. If a stock price series is
+mean-reverting, we can trade on it and make a profit if we can accurately
+estimate its mean and the standard deviation for the near future. Kalman filter is
+an excellent technique for doing that. To learn how, you can read our paper <a href="/assets/stock-price-forecasting-with-kalman-filter.pdf">here</a>.</p>
+
+<p><img src="/images/projects/forecast_stock_prices_with_kalman_filter/AAPL.png" alt="" /></p>
+
+<p><img src="/images/projects/forecast_stock_prices_with_kalman_filter/AMZN.png" alt="" /></p>
+
+<p><img src="/images/projects/forecast_stock_prices_with_kalman_filter/FB.png" alt="" /></p>
+
+<p><img src="/images/projects/forecast_stock_prices_with_kalman_filter/GOOG.png" alt="" /></p>
+
+<p><img src="/images/projects/forecast_stock_prices_with_kalman_filter/TSLA.png" alt="" /></p>
+:ET

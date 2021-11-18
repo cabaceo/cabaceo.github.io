@@ -94,4 +94,10 @@ var store = [{
         "tags": [],
         "url": "/trading/forecast_portfolio_growth_with_mcmc/",
         "teaser": null
+      },{
+        "title": "Kalman Filter & the Mean-Reverting Strategy",
+        "excerpt":"If a stock price series is mean-reverting, we can trade on it and make a profit if we can accurately estimate its mean and the standard deviation for the near future. Kalman filter is an excellent technique for doing that. Read our paper to find out how Kalman filter works...","categories": [],
+        "tags": [],
+        "url": "/trading/forecast_stock_prices_with_kalman_filter/",
+        "teaser": null
       }]
