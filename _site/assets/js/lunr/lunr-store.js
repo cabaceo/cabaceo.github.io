@@ -1,26 +1,26 @@
 var store = [{
         "title": "Predict Default Risk of P2P Loans",
-        "excerpt":"The client, Liquid P2P, LLC, was a start-up company that provided P2P loan liquidation services. The project involved analyzing the performance of P2P loan portfolios, pricing individual notes for listing on the secondary market, and building machine learning models to predict the default risk of the loans. We built XGBoost...","categories": [],
+        "excerpt":"In this 2-year project, we delivered machine learning solutions to a start-up company that provided P2P loan liquidation services. We built XGBoost models in R to predict the default risk of lending club loans at issuance. Model training and cross validation were performed using parallel computing on AWS cloud instances....","categories": [],
         "tags": [],
         "url": "/fintech/predict_default_risk_of_P2P_loans/",
         "teaser": null
       },{
         "title": "Underwrite Used Car Loans with Machine Learning",
-        "excerpt":"The client, RedRock Financial, LLC, underwrites loans for used cars. They contracted us to computerize their underwriting process and build machine learning models to score their loan applicants. We developed a web-based system for the client, including the database, servers and user interface. We built logistic regression and XGBoost machine...","categories": [],
+        "excerpt":"The client, RedRock Financial, underwrites used car loans. They asked us to computerize their underwriting process and build machine learning models to score their loan applicants. We built logistic regression and XGBoost models to predict default risk using client’s proprietary datasets. We also created visualizations for the client to review...","categories": [],
         "tags": [],
         "url": "/fintech/underwrite_used_car_loans_with_machine_learning/",
         "teaser": null
       },{
         "title": "Analyze Marketing Operations Data",
-        "excerpt":"The client, a marketing operations manager from Ingersoll Rand Inc., contracted us to create a compelling analysis to help with re-structuring their digital marketing team. We were given a collection of excel files with multiple tabs on each file and complex relationships between the fields. We successfully merged the relevant...","categories": [],
+        "excerpt":"Guangming did a fantastic job with our request. We gave him a complex set of data that lacked any sort of standard structure and he was able to standardize our data set, create a compelling analysis, and meet all of our changing needs. He was very communicative during the problem...","categories": [],
         "tags": [],
         "url": "/hr_operations/analyze_marketing_operations_data/",
         "teaser": null
       },{
-        "title": "Improve and Maintain HR Analytics Codebase",
-        "excerpt":"The client, Hire Smarter, Inc., contracted us to adopt and maintain a complex set of R scripts and libraries for two of their customer companies. We fixed bugs and improved the data pulling and sanitation scripts. We ran different analyses to report the evolution of headcount and attrition, the dynamics...","categories": [],
+        "title": "Improve and Maintain HR Analytics Software",
+        "excerpt":"The client, a major player in sales analytics, hired us to improve their proprietary software written in R. We fixed bugs and improved the data pulling and processing components. We refactored and simplified the codebase. We improved pipeline automation and documentation. Finally, we ran the improved software for two of...","categories": [],
         "tags": [],
-        "url": "/hr_operations/improve_and_maintain_hr_analytics_codebase/",
+        "url": "/hr_operations/improve_and_maintain_hr_analytics_software/",
         "teaser": null
       },{
         "title": "Estimate TV Attribution with Wavelets",

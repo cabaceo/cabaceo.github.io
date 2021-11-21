@@ -2,8 +2,10 @@
 title: "Predict Default Risk of P2P Loans"
 ---
 
-The client, Liquid P2P, LLC, was a start-up company that provided P2P loan liquidation services. The project involved analyzing the performance of P2P loan portfolios, pricing individual notes for listing on the secondary market, and building machine learning models to predict the default risk of the loans.
+In this 2-year project, we delivered machine learning solutions to a start-up company that provided P2P loan liquidation services.
 
-We built XGBoost models in R to predict the default risk of lending club loans at issuance on the primary market. Model training and cross validation were done using parallel computing on AWS. In addition, we built API services using the R plumber package to pass data between the database, the models, and the dashboard. We also analyzed loan life cycles and calculated the fair price of seasoned loans to be listed on the secondary market. Finally, we wrote technical white papers and content for marketing.
+We built XGBoost models in R to predict the default risk of lending club loans at issuance. Model training and cross validation were performed using parallel computing on AWS cloud instances. We also built API services using the R plumber package to enable communications between the database, models, and dashboard.
 
-Our models consistently identified 2 ~ 5% more high quality notes across loan grades. My pricing formula allowed quick and profitable sales of seasoned notes on the secondary market.
+We analyzed the life cycle of primary loans and developed a formula for calculating the fair price of seasoned loans to sell on the secondary market. We also produced technical white papers and marketing content.
+
+The primary notes purchased by our models had 7 ~ 23% fewer defaults or late payments than auto-investing on lending club. And our pricing formula allowed quick and profitable sales of seasoned notes on the secondary market.
