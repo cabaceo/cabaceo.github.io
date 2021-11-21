@@ -2,14 +2,8 @@
 title: "Develop Pipeline for Processing Flow Cytometry Data"
 ---
 
-The client, Precision for Medicine, contracted us to help develop a R pipeline for processing flow cytometry data. We were given a well-defined list of tasks that we successfully accomplished:
+The client, Precision for Medicine, asked us to develop a R pipeline for processing flow cytometry data.
 
-- review data and pipeline requirements,
-- create implementation plan for pipeline,
-- implement pipeline in publicly available data following general guidelines from opencyto.org,
-- implement gating pipeline for HVTN080,
-- perform autogating of raw FCS files with OpenCyto,
-- output gated data from autogating pipeline,
-- visualize gated data using OpenCyto functions and write wrapper functions to allow for more flexibility in plotting options,
-- output patient-level data by biomarker for downstream processing, and
-- document implementation steps.
+We reviewed data and pipeline requirements and created implementation plan. We implemented the pipeline using publicly available data and following guidelines from opencyto.org. We implemented gating pipeline for HVTN080. We performed autogating of raw FCS files with OpenCyto. We output gated data from the autogating pipeline. We visualized gated data using OpenCyto functions and wrote wrapper functions to increase flexibility in plotting options. We output patient level data by biomarker for downstream processing. And we documented the implementation steps.
+
+Our pipeline was integrated into the client's service platform that powers their business.

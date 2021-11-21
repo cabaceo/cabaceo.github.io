@@ -2,12 +2,12 @@
 title: "Analyze Stock Market Data with Linear Panel Models"
 ---
 
-The client, a stock trader and researcher, contracted us to analyze a collection of large files of stock market data using linear panel models with the R PLM package.
+The client, a stock trader and researcher, asked us to analyze a collection of stock market data that were observed cross-sectionally and over time using linear panel models in R with the PLM package.
 
-The provided stock market data were observed on cross-sections of units and over time. This double dimensionality required linear panel models for proper analysis and presented the following major challenges, which we solved beautifully.
+We wrote R code to read and preprocess the data chunk by chunk because some data files were larger than 16 GB.
 
-1. Some data files were larger than the 16 GB RAM of our computers so we wrote code to read in the data chunk by chunk.
-2. The data had complex structures. For example, limit order related fields were in one file, market quality related fields were in another, so were feasibility and participation related fields. Some fields had one observation per day, while others had multiple observations. We carefully joined the files and roll up the data by day, week and month, while creating different groups such as pre- and post- periods with respect to client specified dates.
-3. The interpretation of the main effects and Differences-in-Differences (DID) effects from the linear panel models required careful study and deep understanding of the R PLM package, as well as an intimate knowledge of the created groups.
+The data had complex structures. For example, limit order, market quality, feasibility, and participation related fields existed in separate files and had different time frequencies. We carefully joined the files and rolled up the data by day, week and month, while creating different groups such as pre- and post- periods with respect to client specified dates.
 
-We built an easy-to-use pipeline in R for the client to prepare large and complex stock market data, run linear panel data modeling, and report analysis results with correct interpretations.
+We interpretated the main effects and Differences-in-Differences (DID) effects from the linear panel models. This required a deep understanding of the PLM package.
+
+We built an easy-to-use pipeline in R for the client to process large and complex stock market data, run linear panel models, and report results with correct interpretations.

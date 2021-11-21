@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Backtest Bitcoin Trading Strategies | Cabaceo LLC</title>
-<meta name="description" content="The client, a crypto trader who was building a trading bot, contracted us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performances using historical data from cryptoquant.com and bitmex, while accounting for fees on Kraken since that was the client’s choice of exchange.">
+<meta name="description" content="The client, a crypto trader, hired us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performance using historical data from cryptoquant.com and bitmex, while accounting for trading fees (Kraken).">
 
 
   <meta name="author" content="Guangming Lang">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="http://localhost:4000/trading/backtest_bitcoin_trading_strategies/">
 
 
-  <meta property="og:description" content="The client, a crypto trader who was building a trading bot, contracted us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performances using historical data from cryptoquant.com and bitmex, while accounting for fees on Kraken since that was the client’s choice of exchange.">
+  <meta property="og:description" content="The client, a crypto trader, hired us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performance using historical data from cryptoquant.com and bitmex, while accounting for trading fees (Kraken).">
 
 
 
@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-11-21T11:54:35+09:00">
+  <meta property="article:published_time" content="2021-11-21T14:36:32+09:00">
 
 
 
@@ -152,8 +152,8 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Backtest Bitcoin Trading Strategies">
-    <meta itemprop="description" content="The client, a crypto trader who was building a trading bot, contracted us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performances using historical data from cryptoquant.com and bitmex, while accounting for fees on Kraken since that was the client’s choice of exchange.">
-    <meta itemprop="datePublished" content="2021-11-21T11:54:35+09:00">
+    <meta itemprop="description" content="The client, a crypto trader, hired us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performance using historical data from cryptoquant.com and bitmex, while accounting for trading fees (Kraken).">
+    <meta itemprop="datePublished" content="2021-11-21T14:36:32+09:00">
     
 
     <div class="page__inner-wrap">
@@ -169,11 +169,11 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>The client, a crypto trader who was building a trading bot, contracted us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performances using historical data from cryptoquant.com and bitmex, while accounting for fees on Kraken since that was the client’s choice of exchange.</p>
+        <p>The client, a crypto trader, hired us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performance using historical data from cryptoquant.com and bitmex, while accounting for trading fees (Kraken).</p>
 
-<p>Each strategy output three signals (“Buy”, “Sell”, or “Hold”) at each trading time, for example, at the end of each 24 hours if trading frequency was daily, and every 4 hours if trading frequency was 4-hour. Our python scripts carefully calculated the profit and loss after each trade and tracked the account balance over time, while taking care of stop losses and accounting for all possible fees, including trading fees and margin account open and rollover fees. For each strategy, our scripts gave three scenarios: no leverage, 3x leverage, and 5x leverage. Our scripts also tested what would happen if we short-sold BTC every time when there was a ‘Sell’ signal. Finally, We wrote R scripts to plot account balance over time and analyzed 5-day, 10-day, 15-day, 30-day, 90-day, 180-day, and 365-day returns and risks.</p>
+<p>Each strategy output three signals (“Buy”, “Sell”, or “Hold”), for example, at the end of each 24 hours if trading frequency was daily, and every 4 hours if trading frequency was 4-hour. Our python scripts carefully calculated the profit and loss after each trade and tracked the account balance over time, while taking care of stop losses and accounting for all possible fees, including trading fees and margin account open and rollover fees. For each strategy, our scripts gave three scenarios: no leverage, 3x leverage, and 5x leverage. Our scripts also tested what would happen if we short-sold BTC every time when there was a ‘Sell’ signal. Finally, We wrote R scripts to plot account balance over time and analyzed 5-day, 10-day, 15-day, 30-day, 90-day, 180-day, and 365-day returns and risks.</p>
 
-<p>After the project, we realized that we had actually written a general backtesting tool. Say you have a BTC trading strategy and you want to keep it secret, but you also want to know how well it would’ve performed historically. You can run your strategy over historical data and generate a csv file of two columns: timestamp and trading signal (‘Buy’, ‘Sell’, or ‘Hold’). You can then feed the csv file into our tool, with an exchange selected (Kraken, Binance, Bitmex, and etc.), and you will get a performance report like <a href="https://github.com/gmlang/gallery/blob/d4e246f345bea068bc98807e72aadcc2944d69ef/backtest-btc-30-day-return-risk.pdf">this</a>.</p>
+<p>After the project, we realized that we had written a general backtesting tool. Say you have a BTC trading strategy and you want to keep it secret, but you also want to know how well it would’ve performed historically. You can run your strategy over historical data and generate a csv file of two columns: timestamp and trading signal (‘Buy’, ‘Sell’, or ‘Hold’). You can then feed the csv file into our tool, with an exchange selected (Kraken, Binance, Bitmex, and etc.), and you will get a performance report like <a href="https://github.com/gmlang/gallery/blob/d4e246f345bea068bc98807e72aadcc2944d69ef/backtest-btc-30-day-return-risk.pdf">this</a>.</p>
 
         
       </section>
@@ -185,7 +185,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-11-21T11:54:35+09:00">November 21, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-11-21T14:36:32+09:00">November 21, 2021</time></p>
 
 
       </footer>
@@ -210,7 +210,7 @@
 ">Previous</a>
     
     
-      <a href="/trading/develop_trading_signals_for_bitcoin_perpetuals/" class="pagination--pager" title="Develop Trading Signals for Bitcoin Perpetual Future Contracts
+      <a href="/trading/develop_trading_signals_for_bitcoin_perpetuals/" class="pagination--pager" title="Develop Trading Signals for Bitcoin Perpetual Contracts
 ">Next</a>
     
   </nav>

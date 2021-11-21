@@ -1,0 +1,2 @@
+I"<p>The client, a crypto trader, hired us to backtest two trading strategies. We wrote python scripts to implement the strategies and backtest their performance using historical data from cryptoquant.com and bitmex, while accounting for trading fees (Kraken).</p>
+:ET

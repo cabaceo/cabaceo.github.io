@@ -1,0 +1,8 @@
+I"C<p>The client, Metrics Media Group, approached us to develop a methodology of attribution to understand which TV station-ad-spots provide the most web traffic so that they can better allocate their ad spendings.</p>
+
+<p>Using minute-level web sessions data tracked by Google Analytics and TV spots data (airtime, TV station, and spot rate), we estimated, using Discrete Wavelet Transform, how web traffic would have evolved after a TV spot if it hadn’t occurred. This is generally known as the baseline estimation problem or the counterfactual prediction problem. Once the baseline was estimated, the above-baseline sessions were attributed to specific TV spots. And we used a probabilistic model to apportion the sessions among the overlapped TV spots.</p>
+
+<p>Before coming to us, the client used a service called Quality Analytics, which cost them $2,500 per month. Our solution eliminated this cost entirely, resulting a saving of $30,000 per year for the client.</p>
+
+<p><img src="/images/projects/estimate_tv_attribution_with_wavelets/baseline-vs-actual-fwd-5mins.png" alt="" /></p>
+:ET
