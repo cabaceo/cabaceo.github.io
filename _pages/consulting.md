@@ -12,30 +12,22 @@ header:
 
 ## Our Values
 
-Cabaceo LLC is a data science consulting company based in Ann Arbor, Michigan. We are passionate about solving business problems using analytics. We are committed to help you increase your business with advanced data science and machine learning technologies. We strive to deliver excellence.
+Cabaceo LLC is a data analytics company based in Ann Arbor, Michigan. We are passionate about helping small businesses and start-ups increase their business with state-of-the-art data science and machine learning technologies.
 
 ## Our Services
 
-We proudly provide machine learning solutions and data science services to the following industries:
+We are committed to provide machine learning solutions and data analysis services to the following industries:
 
-* [Crypo & Stock Trading](/trading/)
-* [Fintech](/fintech/)
-* [Investment Analysis](/investment_analysis/)
-* [Medicine & Biotech](/medicine_biotech/)
-* [Marketing & Advertising](/marketing_advertising/)
-* [HR & Operations](/hr_operations/)
+* [Crypto, DeFi, and the Stock Market](/trading/)
+* [FinTech](/fintech/)
+* [Real Estate](/real_estate/)
+* [Marketing & Sales](/marketing_advertising/)
+* [Human Resources & Operations](/hr_operations/)
+* [Medicine, Healthcare, and Biotech](/medicine_biotech/)
 
 ## Client Praise
 
-> It was an absolute pleasure to work with Guangming. Communication was seamless and he went above and beyond original expectations to provide excellence. You will be hard pressed to find a data scientist with this level of creative problem solving and efficiency. There is no problem too large. From fairly undeveloped ideas, he created a trading strategy yielding greater than 1% daily returns. I look forward to working together again.
-
->Excellent work in producing a quick turnaround for a very time sensitive COVID related data analysis. His input was critical in designing our approach to a prototype. Would work with again in a heartbeat.
-
-> Guangming was responsive, communicative and stellar in his talent and work ethic. You may pay less for someone else, but Guangming is worth every dollar. He completed an application for our company on time, and continued updates as we needed them. Guangming thinks outside of the box and will take what you want and make it a lot better than you may have envisioned. Whatever you are thinking are the capabilities of a Data Scientist - Guangming will exceed them. I can't imagine a better partner to work on projects with.
-
-> Guangming is a fantastic R developer, data scientist and statistician. His work product, flexibility, knowledge, demeanor, mastery, and professionalism made analyzing large datasets a pleasure. I highly recommend Guangming and will gladly work with him again.
-
-> Guangming was very competent. He completed the technical challenges (NLP keyword extraction, network graph visualizations, etc...) as well as iterated the algorithms and visualizations that needed to be evolved. He always looked to understand the bigger picture of what I was trying to achieve. I appreciated working with Guangming and wouldn't hesitate to bring him back in for additional jobs. Great experience.
+> I enjoyed working with Guangming and his colleague. They were impressive from the proposal to final product submittal. Easy to communicate with on email, Slack, and Upwork. If you are doing any analytics with machine vision or space coordinate tracking, they will be valuable to your team. They wanted to know details on what questions I was trying to answer and then they worked their data science magic to find solutions. Nice work. Will work with them again when the right project comes along. - Tim Swieter, Steelcase Inc.
 
 ## Contact Us
 

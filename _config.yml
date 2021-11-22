@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Guangming Lang"
   avatar           : "/images/profile/gmlang.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Founder & Chief Data Scientist"
+  bio              : "Founder & Data Scientist"
   location         : "Ann Arbor, Michigan"
   email            : "gmlang@cabaceo.com"
   links:
