@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-Hi, welcome to our company website. We are a small team of data scientists, machine learning engineers, and web develpers that are using state-of-the-art data technologies to help small businesses and start-ups grow and prosper.
+Hi, welcome to our company website. We are a small team of data scientists, machine learning engineers, and web developers that are using state-of-the-art data technologies to help small businesses and start-ups grow and prosper.
 
 For the last eight years, we have helped more than 160 clients in over ten different industries, including Crypto & DeFi, the stock market, FinTech, real estate, eCommerce, IoTs, survey & psychometrics, marketing & sales, human resouces, medicine, and biotech.
 
