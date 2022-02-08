@@ -7,7 +7,7 @@ author_profile: true
 
 Hi, welcome to our company website. We are a small team of data scientists, machine learning engineers, and web developers that are using state-of-the-art data technologies to help small businesses and start-ups grow and prosper.
 
-For the last eight years, we have helped more than 160 clients in over ten different industries, including Crypto & DeFi, the stock market, FinTech, real estate, eCommerce, IoTs, survey & psychometrics, marketing & sales, human resouces, medicine, and biotech.
+For the last eight years, we have helped more than 160 clients in over ten different industries, including DeFi, FinTech, real estate, eCommerce, IoTs, survey & psychometrics, marketing & sales, human resources, medicine, and biotech.
 
 We value long lasting relationship with clients. And because we deliver excellence and delight clients with high return on investment, many clients have been with us over the years. We are very grateful for that.
 
