@@ -2,8 +2,6 @@
 main:
   - title: "Solutions"
     url: /solutions/
-  - title: "Dashboards"
-    url: /dashboards/
   - title: "About Us"
     url: /about/
   - title: "Contact Us"

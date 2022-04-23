@@ -18,7 +18,7 @@ Cabaceo LLC is a data analytics company based in Ann Arbor, Michigan. We are pas
 
 We are committed to provide machine learning solutions and data analysis services to the following industries:
 
-* [Crypto, DeFi, and the Stock Market](/trading/)
+* [Crypto and the Stock Market](/trading/)
 * [FinTech](/fintech/)
 * [Real Estate](/real_estate/)
 * [Marketing & Sales](/marketing_advertising/)
