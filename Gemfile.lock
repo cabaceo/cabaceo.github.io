@@ -111,6 +111,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-include-cache
   minimal-mistakes-jekyll
   webrick
 
